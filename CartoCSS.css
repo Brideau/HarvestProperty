@@ -1,0 +1,38 @@
+/* #frednormalized {
+  line-color:#fff;
+  line-width:1;
+  polygon-opacity:1;
+  polygon-fill:#ae8;
+  
+  [LevDiffAvg >= -100] {polygon-fill: #313695}
+  [LevDiffAvg > -97.9] {polygon-fill: #4575b4}
+  [LevDiffAvg > -66.5] {polygon-fill: #74add1}
+  [LevDiffAvg > -35.3] {polygon-fill: #abd9e9}
+  [LevDiffAvg > -15.0] {polygon-fill: #e0f3f8}
+  [LevDiffAvg > 0] {polygon-fill: #ffffbf}
+  [LevDiffAvg > 16.2] {polygon-fill: #fee090}
+  [LevDiffAvg > 38.4] {polygon-fill: #fdae61}
+  [LevDiffAvg > 74.9] {polygon-fill: #f46d43}
+  [LevDiffAvg > 180.5] {polygon-fill: #d73027}
+  
+}*/
+
+
+#frednormalized {
+  line-color:#fff;
+  line-width:1;
+  polygon-opacity:1;
+  polygon-fill:#ae8;
+  
+  [ChgDiff >= -507000] {polygon-fill: #313695}
+  [ChgDiff > -111.0] {polygon-fill: #4575b4}
+  [ChgDiff > -97.1] {polygon-fill: #74add1}
+  [ChgDiff > -53.6] {polygon-fill: #abd9e9}
+  [ChgDiff > -22.0] {polygon-fill: #e0f3f8}
+  [ChgDiff > 0] {polygon-fill: #ffffbf}
+  [ChgDiff > 26.4] {polygon-fill: #fee090}
+  [ChgDiff > 66.4] {polygon-fill: #fdae61}
+  [ChgDiff > 153.3] {polygon-fill: #f46d43}
+  [ChgDiff > 481.0] {polygon-fill: #d73027}
+  
+}
